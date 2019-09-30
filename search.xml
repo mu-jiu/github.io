@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>学习一些感兴趣的内容</title>
+      <link href="/2019/09/30/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0%E5%8F%91%E5%B8%83/"/>
+      <url>/2019/09/30/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0%E5%8F%91%E5%B8%83/</url>
+      
+        <content type="html"><![CDATA[<p>昨天折腾了小半天，终于把hexo部署到了GitHub上，以后就在这里记录学习过程</p><h3 id="目前希望能够掌握的有"><a href="#目前希望能够掌握的有" class="headerlink" title="目前希望能够掌握的有"></a>目前希望能够掌握的有</h3><ul><li>python （web方向、数据分析）</li><li>Flash</li><li>Mongodb</li><li>Git</li><li>Docker </li><li>VS code</li><li>markdown</li><li>树莓派</li></ul><hr><h3 id="学习目的"><a href="#学习目的" class="headerlink" title="学习目的"></a>学习目的</h3><ol><li>从07年开始接触html和css，就感受编程的神奇和创造的乐趣，后来也接触了java，但由于没有长性，所以一直在从入门到放弃的阶段循环，现在毕业已经十年，有时候不经意看到某种编程语言实现的功能，还是会吊起心底那份兴趣，就像有的人喜欢书法、有的人喜欢钓鱼，我想把编程当成是一个业务爱好，不指望能有多厉害，能享受到这份乐趣足矣。</li></ol><ol start="2"><li>现在不少小学都已经加入了以python为主的编程教材，相信10出生的孩子，他们未来的世界，变成就跟开车一样，会成为非常普遍的一个技能，刚好我家里也有个小男孩，为了以后能和儿子多一点共同语言，就必须得开始学习python，过阵子再入手个树莓派，让孩子能实际感受到编程的效果，说不能还能增加他对我的崇拜，哈哈</li></ol><hr><h3 id="从hexo开始"><a href="#从hexo开始" class="headerlink" title="从hexo开始"></a>从hexo开始</h3><p>既然选择用hexo写博客，那至少得熟练掌握他的使用方案，下面是总结的一些基础语法。</p><p>hexo文章发布流程：</p><p><strong>一、创建文章</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new &quot;My New Post&quot;</span><br></pre></td></tr></table></figure><p><strong>二、编辑文章</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: 学习一些感兴趣的内容</span><br><span class="line">date: 2019-09-30 09:06:55</span><br><span class="line">tags: #hexo </span><br><span class="line">---</span><br></pre></td></tr></table></figure><p>我用的<a href="https://www.typora.io/" target="_blank" rel="noopener">Typora</a> 编辑md文件</p><p>文章添加图片</p><ol><li>把本地Blog文件下的配置文件（非主题下）_config.yml里的post_asset_folder:选项设置为true</li><li>在本地Blog路径下执行<code>npm install hexo-asset-image --save</code> （用于下载安装一个可以上传本地图片的插件）</li><li>运行<code>hexo n &quot;xxxx&quot;</code>来生成md博文, 会发现在/source/_posts文件夹中除了xxxx.md`文件还生成了一个同名文件夹</li><li>最后在xxxx.md引入图片时，先把图片复制到xxxx文件夹中 然后在xxxx.md中按照markdown的格式引入图片：</li></ol><p><code>![你想输入的替代文字](xxxx/图片名.jpg)</code></p><p><strong>三、清除缓存（可省）</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure><p><strong>四、生成静态文件和本地预览</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo s  //启动本地服务器 可略</span><br></pre></td></tr></table></figure><p><strong>五、部署到远程站点</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2019/09/29/hello-world/"/>
       <url>/2019/09/29/hello-world/</url>
